@@ -16,17 +16,17 @@ class Music2 extends StatefulWidget {
 
 class _Music2State extends State<Music2> {
   var playl = [
-    'assets/images/playlists/car.jpeg',
-    'assets/images/playlists/Leo fan made edit 💥🔥.jpeg',
+    'assets/images/playlists/lov music.jpeg',
+    'assets/images/playlists/Annan 🤗.jpeg',
     'assets/images/playlists/malayalam.jpeg',
     'assets/images/playlists/AR Rahman Scribble Art.jpeg'
   ];
   var sugg = [
-    'assets/images/playlists/Kaduva Prithviraj.jpeg',
-    'assets/images/playlists/premam.jpeg',
-    'assets/images/playlists/Rockstar kun faya.jpeg',
-    'assets/images/playlists/backstreet.jpeg',
-    'assets/images/playlists/dil se.jpeg',
+    'assets/images/playlists/96 tml.jpeg',
+    'assets/images/playlists/mayanadhi.jpeg',
+    'assets/images/playlists/mamooty.jpeg',
+    'assets/images/playlists/rahman.jpeg',
+    'assets/images/playlists/travl.jpeg',
     'assets/images/playlists/777Charlie hymn of dharma.jpeg',
     'assets/images/playlists/Agar tum Saath ho.jpeg',
     'assets/images/playlists/alec ben let me down.jpeg'
@@ -43,10 +43,10 @@ class _Music2State extends State<Music2> {
   ];
 
   var names = [
-    'Ranam title track',
+    '96 love title track',
     'Unfinished hope',
-    'Faya kun',
-    'I want it that way',
+    'mamooty evergreen',
+    'Ar Rahaman Hits',
     'Ae ajnabi',
     'Hymn of dharma',
     'Agar tum saath ho',

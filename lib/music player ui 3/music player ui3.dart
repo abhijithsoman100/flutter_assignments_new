@@ -35,14 +35,14 @@ class _Now_playingState extends State<Now_playing> {
               height: 280,
               width: 250,
               decoration: BoxDecoration(borderRadius: BorderRadius.circular(30),
-                image: const DecorationImage(image: AssetImage("assets/images/Don't worry about a thing___.jpeg"),
+                image: const DecorationImage(image: AssetImage("assets/images/playlists/lov music.jpeg"),
                 fit: BoxFit.cover)
               ),
             ),
             const SizedBox(height: 50,),
-            Text('Three little birds',style: GoogleFonts.montserrat(fontWeight: FontWeight.bold,color: Colors.pink[100],fontSize: 25),),
+            Text('I Love Music',style: GoogleFonts.montserrat(fontWeight: FontWeight.bold,color: Colors.pink[100],fontSize: 25),),
             const SizedBox(height: 20,),
-            const Text('Bob marley and Wailers',style: TextStyle(color: Colors.white),),
+            const Text('Ar Rahaman',style: TextStyle(color: Colors.white),),
             const SizedBox(height: 20,),
             Container(
               width: 400,
