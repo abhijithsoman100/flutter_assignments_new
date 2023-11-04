@@ -1,5 +1,17 @@
+
+import 'package:assignment/tourism%20app%20project/screens/3%20login%20screen.dart';
+import 'package:assignment/tourism%20app%20project/screens/4%20sign%20up%20screen.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+
+
+
+
+void main(){
+  runApp(MaterialApp(
+    home: Login_signup(),
+  ));
+}
 
 class Login_signup extends StatelessWidget {
   const Login_signup({super.key});
@@ -11,23 +23,27 @@ class Login_signup extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset('assets/images/tourism.png',height: 250,width: 250,),
+            Image.asset('assets/images/tourism logo2.png',height: 250,width: 250,),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 50,vertical: 5),
-              child: MaterialButton(onPressed: (){},
-                color: Colors.lightBlueAccent,
+              child: MaterialButton(onPressed: (){
+                Navigator.of(context).push(MaterialPageRoute(builder: (context)=>Tour_Signin()));
+              },
+              color: Colors.lightBlueAccent,
                 child: ListTile(
                   title: Text('Login'),
                   trailing: Icon(Icons.login),
                 ),
                 shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(30)
+                  borderRadius: BorderRadius.circular(30)
                 ),
               ),
             ),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 50,vertical: 5),
-              child: MaterialButton(onPressed: (){},
+              child: MaterialButton(onPressed: (){
+                Navigator.of(context).push(MaterialPageRoute(builder: (context)=>Tour_Sign_up()));
+              },
                 color: Colors.green,
                 child: ListTile(
                   title: Text('Register'),
